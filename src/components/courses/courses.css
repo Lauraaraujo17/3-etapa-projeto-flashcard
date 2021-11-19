@@ -1,0 +1,181 @@
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 30%;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.mx-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.mb-4 {
+    margin-bottom: 5rem !important;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+h4,
+.h4 {
+    font-size: calc(1.275rem + 0.3vw);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid #feefd2;
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 2 auto;
+    padding: 1rem 1rem;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+py-4 container {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.from-control {
+    color: #aa1f24;
+}
+
+.form-style {
+    background: #f2dcff;
+    width: 1200px;
+    height: 500px;
+    padding: 24px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+textarea {
+    background: #1b1b1f;
+    border: 0;
+    border-radius: 5px;
+    padding: 24px;
+    resize: none;
+    height: 12px;
+    color: #ffffff;
+    font-size: 19px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    align-self: flex-end;
+    background: #ff008e;
+    border: 0;
+    border-radius: 5px;
+    margin: 32px;
+    cursor: pointer;
+    padding: 0 32px;
+    height: 40px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
